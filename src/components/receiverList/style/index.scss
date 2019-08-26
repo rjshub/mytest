@@ -1,0 +1,32 @@
+// 接收人
+.receiverContainer {
+  .van-checkbox__icon--round .van-icon {
+    border-radius: 0;
+  }
+  .groupList {
+    .receiverCell {
+      .van-cell__value {
+        width: 40px;
+        flex: unset;
+      }
+    }
+  }
+  .receiverFooter {
+    .van-button {
+      flex: 1;
+      height: 100%;
+      color: #FFF;
+      font-size: 16px;
+      background-color: #1890FF;
+      border: 1px solid #1890FF;
+    }
+  }
+  .van-actionsheet {
+    bottom: 50px;
+    max-height: 50%;
+  }
+  .van-overlay {
+    height: calc(100% - 50px);
+    bottom: 50px;
+  }
+}
