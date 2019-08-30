@@ -9,6 +9,10 @@
     <button @click="toReceiverList" title="移动端，仿钉钉组织架构并结合elementUI树型组件复选框">选择接受人</button>
     <button @click="toSortList">列表排序</button>
     <button @click="toAlloyFinger">AlloyFinger</button>
+    <button @click="toRequestIndex">数据请求</button>
+    <button @click="toVideoIndex">视频播放</button>
+    <button @click="toGetDeviceType">获取设备类型</button>
+    <button @click="toSomeCss">一些CSS样式</button>
   </div>
 </template>
 
@@ -47,6 +51,18 @@
       },
       toAlloyFinger() {
         this.$router.push({path: '/alloyFinger'})
+      },
+      toRequestIndex() {
+        this.$router.push({path: '/requestIndex'})
+      },
+      toVideoIndex() {
+        this.$router.push({path: '/videoIndex'})
+      },
+      toGetDeviceType() {
+        this.$router.push({path: '/getDeviceType'})
+      },
+      toSomeCss() {
+        this.$router.push({path: '/someCss'})
       },
 
       text1() {

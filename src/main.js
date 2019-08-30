@@ -10,11 +10,16 @@ import 'vant/lib/index.css'
 import 'vant/lib/icon/local.css'
 import './components/receiverList/style/index.scss'
 import VueDND from 'awe-dnd'
+import VueResource from 'vue-resource'
+import Video from 'video.js'
+import 'video.js/dist/video-js.css'
+Vue.prototype.$video = Video
 
 Vue.config.productionTip = false
 // Vue.use(preview)
 Vue.use(Vant)
 Vue.use(VueDND)
+Vue.use(VueResource)
 
 /* eslint-disable no-new */
 new Vue({
